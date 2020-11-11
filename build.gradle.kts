@@ -2,12 +2,14 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
     kotlin("jvm") version "1.3.72" apply true
+    kotlin("plugin.serialization") version "1.3.72"
 }
 
 group = "io.kraftsman"
 version = "1.0-SNAPSHOT"
 
 repositories {
+    jcenter()
     mavenCentral()
 }
 
