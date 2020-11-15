@@ -27,3 +27,14 @@ dependencies {
 tasks.withType<KotlinCompile>() {
     kotlinOptions.jvmTarget = "11"
 }
+
+kotless {
+    config {
+        bucket = "..."
+
+        terraform {
+            profile = "..."
+            region = "..."
+        }
+    }
+}
