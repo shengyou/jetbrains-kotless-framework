@@ -5,7 +5,7 @@
 ## 相關資源
 
 * 簡報檔：https://www2.slideshare.net/shengyou/serverless-kotlin-239370910
-* 原始碼：https://github.com/shengyou/amazon-lambda-kotlin
+* 原始碼：https://github.com/shengyou/jetbrains-kotless-framework
 
 ### 警告！
 
